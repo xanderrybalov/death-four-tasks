@@ -2,10 +2,10 @@
   "name": "death-four-tasks",
   "version": "1.0.0",
   "description": "4 tasks for check your TS level",
-  "main": "index.js",
+  "main": "dist/cli.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "start": "node dist/cli.js",
+    "dev": "nodemon src/cli.ts",
     "build": "tsc",
     "clean": "rm -rf dist"
   },
